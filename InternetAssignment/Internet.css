@@ -1,0 +1,270 @@
+*{
+    font-family: sans-serif;
+}
+
+body {
+    
+    margin:0;
+    padding:0;
+}
+
+.container{
+    width: 80.5em;
+    height: 960px;
+    background-color: #ffffff;
+    margin-left: 240px;
+    
+}
+
+.header{
+    display: flex;
+}
+    .header img {
+        height: 140px;
+        margin-top:5px;
+    }
+    .header h1{
+        margin-top:50px;
+        font-size: 45px;
+        font-weight: 350;
+    }
+    .header h1 span {
+    color: #21659e;
+}
+
+h2{
+    background-color: #3672a4;
+    color:#ffffff;
+    padding:20px;
+    margin-top:-30px;
+    font-size: 33px;
+}
+
+
+.content {
+    display: flex;
+    /* background-color: #e5e5e5; */
+    margin-top:-30px;
+}
+
+
+.sideContent{
+    height:580px;
+    width: 239px;
+}
+    .sideContent p{
+        margin: 30px 7px -11px 7px;
+        font-weight: 600;
+        font-size: 11pt;
+    }
+    .sideContent p span{
+        color:#d92721;
+    }
+    .sideContent .sideContentFirst{
+        margin-bottom: 15px;
+    }
+    .sideContent .parTwo{
+        margin:10px 0px 27px 5px;
+    }
+    .sideContent .parTwo span{
+        color: #23659e;
+    }
+
+p .videolink{
+    background-color:#4b86b6;
+    color:#e4edf5;
+    text-decoration: none;
+    border-radius:8px;
+    padding:9px 34px 10px 34px;
+    font-size: 12pt;
+}
+p .resoucelink {
+    background-color:#ef7d00;
+    color:#e4edf5;
+    text-decoration: none;
+    border-radius:8px;
+    padding:8px 21px 10px 21px;
+    font-size: 12pt;
+}
+.sideContent hr{
+    margin-top: 40px;
+}
+
+
+.bottomSideContent{
+    background-image: url("ad_background.png");
+    background-color: #23659e;
+    text-align: center;
+    height: 330px;
+    
+}
+    .bottomSideContent h3{
+        color: #e1e6ea;
+        padding: 10px;
+        font-size: x-large;
+        font-weight: 600;
+        
+    }
+    .bottomSideContent img{
+        height: 150px;
+        margin-top: -40px;
+        margin-bottom: 20px;
+    }
+    .bottomSideContent .learnMorelink{
+        background-color:#4fcbde;
+        color:#e6f7fa;
+        text-decoration: none;
+        border-radius:4px;
+        padding:6px 35px 7px 37px;
+        font-size: 11pt;
+        font-weight: 600;
+    }
+    .bottomSideContent .learnMorelink span{
+        color: #81dcea;
+        font-size:10px;
+    }
+    .bottomSideContent .learnMorelink .spanTwo{
+        color: #b6ebf3;
+        font-size:10px;
+    }
+    .bottomSideContent .learnMorelink .spanThree{
+        color: #d5f3f8;
+        font-size:10px;
+    }
+    .bottomSideContent .learnMorelink .spanFour{
+        color:#e6f7fa;
+        font-size:10px;
+    }
+
+.mainContent{
+    margin-left:58px;
+    margin-top:25px;
+    width: 1050px;
+}
+    .mainContent hr {
+        margin:13px;
+    }
+
+
+.mainTopContent{
+    display: flex;
+    justify-content: space-between;
+}
+    .mainTopContent .mainTopHome{
+        display: flex;
+    }
+    .mainTopContent .mainTopHome img{
+        height: 25px;
+        margin-top: -16px;
+    }
+    .mainTopContent .mainTopHome .homeText{
+        color: #6a6d70;
+        font-size: 1em;
+        font-weight: 550;
+        margin-top: -11px;
+        margin-left: 3px;
+    }
+
+    .mainTopContent .contactInfo{
+        display: flex;
+        justify-content: space-between;
+        margin-top: -8px;
+    }
+
+    .mainContent .contactInfo img{
+        height:40px;
+        margin:-10px -30px;
+        color: #00c1df;
+    }
+    .mainTopContent ul{
+        list-style-type: none;
+        font-size: x-small;
+        text-align: center;
+        margin-right: 5px;
+        margin-top: 5px;
+    }
+
+    .mainTopContent ul li p{
+        color:#7e7e7e ;
+        margin: -20px;
+    }
+    .mainTopContent h1{
+        color:#00c1df;
+        font-size: x-large;
+    }
+
+
+    .clientServers{
+        font-size: 13pt;
+    }
+        .clientServers h3{
+            color: #23669f;
+            margin-bottom: -10px;
+        }
+        .clientServers p{
+            margin-top:12px;
+            margin-bottom:0px;
+        }
+        .clientServers ul{
+            margin-top: 8px;
+        }
+        .clientServers span{
+            color: #049cb1;
+            font-weight: 500;
+        }
+        .clientServers p span{
+            color: #1d1d1d;
+            font-weight: bolder;
+        }
+        .clientServers p .webSpan{
+            color: #049cb1;
+            font-weight: 500;
+        }
+        .clientServers img{
+            height: 89px;
+            margin-left:355px;
+        }
+
+    .numberlist{
+        font-size: 13pt;
+    }
+        .numberlist h3{
+            color: #23669f;
+            margin-bottom: -15px;
+        }
+        .numberlist p{
+            margin-bottom:-11px;
+            margin-left: 18px;
+        }
+        .numberlist span{
+            color: #049cb1;
+            font-weight: 500;
+        }
+        
+
+    .endOfMain{
+        display: flex;
+        border: 5px solid #0085e0;
+        margin-top: 45px;
+    }
+        .endOfMain img{
+            height:120px;
+            margin: 25px;
+            
+        }
+        .endOfMain h3{
+            color: #24659e;
+        }
+        .endOfMain p{
+            font-size: 12pt;
+            margin:-12px 0px;
+        }
+        .endOfMain .endPar span{
+            font-style: italic;
+        }
+        .endOfMain .learnMorePar{
+            margin:20px 0px;
+        }
+        .endOfMain .learnMorePar span{
+            color: #049cb1;
+        }
